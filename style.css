@@ -1,0 +1,233 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+body {
+  width: 1366px;
+  height: 85px;
+}
+.container {
+  border: 1px solid black;
+  margin-top: 5rem;
+  justify-content: center;
+  text-align: center;
+}
+.Navbar .logo {
+  width: 135.89px;
+  height: 44px;
+}
+
+.Navbar {
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  gap: 20rem;
+
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 26px #00000014;
+  opacity: 1;
+}
+.Navbar ul li {
+  margin-top: 5px;
+  display: inline;
+  padding: 20px;
+  float: left;
+}
+.Navbar button {
+  top: 25px;
+  left: 1156px;
+  width: 90px;
+  height: 36px;
+  /* UI Properties */
+  background: #0095ff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  border: none;
+  color: white;
+  font-size: large;
+}
+
+.background_img {
+  position: absolute;
+  z-index: -1;
+}
+.left_content {
+  top: 165px;
+  left: 120px;
+  width: 596px;
+  height: 550px;
+  margin-top: 5rem;
+  padding-left: 5rem;
+  /* UI Properties */
+  opacity: 1;
+  
+}
+.right_img {
+  position: absolute;
+  z-index: 1;
+  top: 165px;
+  left: 787px;
+  width: 509px;
+  height: 550px;
+  margin-top: 5rem;
+  padding-right: 5rem;
+  /* UI Properties */
+  background: transparent url("img/Group 25313.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.flex {
+  display: flex;
+}
+.Coming_soon {
+  padding: 5rem;
+}
+.jet {
+  margin-top: 5rem;
+  padding-left: 5rem;
+  display: flex;
+  background-image: linear-gradient(#e8f5ff, #e7faf5);
+}
+.left_jet_content {
+  margin-top: 5rem;
+}
+.Traveling {
+  top: 2106px;
+  left: 168px;
+  width: 1031px;
+  height: 465px;
+  padding-left: 10rem;
+  /* UI Properties */
+  opacity: 1;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.column {
+  width: 25%;
+}
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+.about-us {
+  display: flex;
+  border-radius: 108px;
+  background-image: linear-gradient(#e8f5ff, #fff1e5);
+  height: 560px;
+  box-shadow: -2px 3px 19px #00000014;
+  opacity: 1;
+}
+.left-about-us-content {
+  margin-top: 5rem;
+}
+.right-about-us-img {
+  margin-top: 5rem;
+}
+.orders {
+  margin-top: 5rem;
+}
+.works {
+  background-image: linear-gradient(#e7faf5, #e0ecfd, #fefafc);
+  height: 592px;
+  justify-content: center;
+  text-align: center;
+  /* margin-top: 5rem; */
+  /* display: flex; */
+}
+.flex-group-work {
+    display: flex;
+    padding-left: 15rem;
+    margin-top: 5rem;
+}
+.scribble-img {
+    margin-top: 5rem;
+}
+.right-work-step {
+    margin-top: 5rem;
+}
+.input-field {
+    justify-content: center;
+    text-align: center;
+}
+.input-class {
+    top: 4583px;
+left: 383px;
+width: 600px;
+height: 70px;
+/* UI Properties */
+background: #E8F5FF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+border: none;
+margin-top: 3rem;
+}
+.input-field .button {
+    top: 4593px;
+left: 812px;
+width: 161px;
+height: 50px;
+/* UI Properties */
+background: #0095FF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+border: none;
+color: white;
+font-size: large;
+}
+.blue-box {
+    margin-top: 5rem;
+    top: 4730px;
+    left: 0px;
+    width: 1366px;
+    height: 250px;
+    /* UI Properties */
+    background: #374f7f 0% 0% no-repeat padding-box;
+    opacity: 1;}
+.MiddleManMail {
+    top: 4730px;
+left: 0px;
+width: 1366px;
+height: 250px;
+/* UI Properties */
+opacity: 1;
+}
+.MiddleManMail .flex-mail {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    top: 4730px;
+    color: white;
+/* height: 200px; */
+opacity: 1;
+margin-bottom: 5rem;
+}
+.MiddleManMail .flex-mail .logo-img {
+    color: white;
+}
+.blue-box .MiddleManMail .contact-details {
+display: flex;
+justify-content: space-between;
+padding-left: 5rem;
+padding-right: 5rem;
+}
+
+.blue-box .left-detail {
+/* display: flex; */
+    color: white;
+}
+.blue-box .right-detail {
+    color: white;
+}
